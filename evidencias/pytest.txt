@@ -1,0 +1,19 @@
+======================================= test session starts =======================================
+platform win32 -- Python 3.13.7, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\joaob\OneDrive\Documentos\Trabalho-Assincrono-QA\.work-tools\python\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\joaob\OneDrive\Documentos\Trabalho-Assincrono-QA\projeto-teste-integracao-helicoptero
+configfile: pytest.ini
+testpaths: tests
+plugins: cov-7.1.0
+collecting ... collected 8 items
+
+tests/test_flight_integration.py::test_agendamento_valido PASSED                             [ 12%]
+tests/test_flight_integration.py::test_conflito_de_horario PASSED                            [ 25%]
+tests/test_flight_integration.py::test_aeronave_em_manutencao PASSED                         [ 37%]
+tests/test_flight_integration.py::test_isolamento_com_fixture[1] PASSED                      [ 50%]
+tests/test_flight_integration.py::test_isolamento_com_fixture[2] PASSED                      [ 62%]
+tests/test_flight_integration.py::test_intervalos_adjacentes PASSED                          [ 75%]
+tests/test_flight_integration.py::test_intervalo_invalido PASSED                             [ 87%]
+tests/test_flight_integration.py::test_aeronave_inexistente PASSED                           [100%]
+
+======================================== 8 passed in 0.66s ========================================
